@@ -25,7 +25,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/", // IMPORTANT for username.github.io websites
+  base: "/glady-andrews-main/", // for github pages with custom domain use "/"
   plugins: [react()],
   resolve: {
     alias: {
